@@ -1,4 +1,4 @@
-Proyecto individual en bootcamp MindHub
+Proyecto individual realizado en bootcamp MindHub.
 Tecnologias usadas:
 ● MongoDB
 ● ExpressJS
