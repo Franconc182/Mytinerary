@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Radio+Canada:ital,wght@0,500;1,500&display=swap');
+
+.colorNav{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.generalFont{
+font-size: 18px!important;
+padding: 1.5rem!important;
+}
+.colorFooter{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}

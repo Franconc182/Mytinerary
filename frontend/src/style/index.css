@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Radio+Canada:ital,wght@0,500;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body{
+  background: #eee;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 30px;
+  background: #fff;
+  height: calc((100% - 90px) /4) !important;
+  border-radius: 1rem;
+  background-color: rgba(228, 141, 28, 0.637);
+  font-family: 'Bebas Neue', cursive;
+  background-position: center;
+  background-size: cover;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+@media (min-width: 768px){
+.swiper-slide{
+  width: 65%;
+  height: calc((100% - 30px)/2) !important;
+}
+}
+
+.mySwiper{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 2rem;
+}
+
+.myTinenariesCarrousel{
+font-size: 38px;
+font-weight: 700;
+text-align: center;
+}
+
+.divCarrousel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrouselItemName{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.802);
+  padding: 20px;
+}
+
+
+.backgroundBody{
+  color: rgba(0, 0, 0, 0.611);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 30px;
+}
+
+.backgroundtitle{
+  color: rgba(0, 0, 0, 0.611);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 60px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cofotter{
+  /* padding-right: 5rem; */
+  color: white;
+  font-weight: 700;
+  line-height: 3rem;
+  font-size: x-large;
+  
+}
+
+.icons{
+  width: 30%;
+    text-align: center;
+}
+
+.colorButton{
+  color: white!important;
+  border: 1px solid white!important;
+}
+
+.detailsCenter{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(216, 128, 93);
+  padding: 2rem;
+
+}
+
+input{
+  border-radius: 1rem;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.buttonsFooter{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.divMytineraryfranco{
+  text-align: center;
+  width: 30%;
+}
+
+@media (max-width: 425px){
+  footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .icons{
+    padding-left: 0rem;
+  }
+  .cofotter{
+    padding-right: 0rem;
+  }
+  .instagramIcon{
+    color: rgb(65, 31, 110)!important;
+  }
+}
+
+@media (max-width: 786px){
+  .cofotter{
+    padding-right: 0rem;
+  }
+  .icons{
+    padding-left: 0rem;
+  }
+  .buttonsFooter{
+    padding-right: 0rem;
+    display: flex;
+    flex-direction: column!important;
+  }
+}
+
+.textDetails{
+  width: 95vh;
+}
+
+.MuiPaper-root{
+  background-color: rgb(236, 128, 143)!important;
+}
+
+.centerItinerary{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(216, 128, 93);
+  padding: 2rem;
+}
+
+.itinerariesContent{
+  text-align: center;
+}
+
+.errorNot{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  background-color: rgb(216, 128, 93);
+}
+
+.btnBackToCities{
+  background-color: rgb(150, 43, 63)!important;
+}
+
+.cardWidth{
+  width: 100%!important;
+}
