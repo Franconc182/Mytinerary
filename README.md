@@ -1,7 +1,7 @@
 Proyecto individual en bootcamp MindHub
 Tecnologias usadas:
-◉ MongoDB
-◉ ExpressJS
-◉ React
-◉ Node
-◉ Material UI
+● MongoDB
+● ExpressJS
+● React
+● Node
+● Material UI
